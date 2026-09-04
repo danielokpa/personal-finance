@@ -1,0 +1,18 @@
+This file explains how to setup the application.
+a) You will need XAMPP or a similar web server package. For this documentation, we will assume XAMPP.
+b) Take note of the following:The computer system to be used in hosting the application must not have other network services (such as Skype) running on TCP port 80. This is to prevent a port conflict.
+
+1. Open the htdocs folder (or web folder) for the web server you are using. For XAMPP, this can usually be found from Start -> programs menu -> Apache Friends -> xampp -> xampp httpdoc folder.
+2. Copy the folder named ‘fmanager’ to the httpdoc folder that opened in step 1.
+3. Close the httpdoc folder
+4. Start the Apache web server
+5. Start the Mysql database server
+6. Launch your browser and type the URL ‘http://localhost/’ in the address bar. The xampp home page should be displayed
+7. Click on the PHPMyAdmin link
+8. On the PHPMyAdmin Home Page, Click on the Import link and browse to the pfm_db.sql file, click on the Go button at the bottom of the page
+9. This will complete the setup of the database
+10. Launch your browser and type the URL ‘http://localhost/fmanager/’ in the address bar. The portal home page should be displayed..
+
+Note: After installation, to open the portal at any other time, simply perform steps 4, 5 and 10
+
+Note that login details are case sensitive
